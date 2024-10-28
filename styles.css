@@ -60,6 +60,7 @@
     place-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 40px 0;
     gap: 30px;
 }
 
@@ -67,13 +68,23 @@
     display: flex;
     gap: 20px;
     position: relative;
+    margin-bottom: 200px;
 }
+
+.containerCard{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 
 .buscar{
     background: none;
     border: 2px solid #fffbf5;
     color: #f5f5f5;
-    padding: 7px 20px;
+    height: 30px;
+    width: 600px;
+    padding: 15px 50px 15px 8px;
     border-radius: 20px;
     
 }
@@ -94,9 +105,9 @@ input.buscar:focus{
     padding: 5px 10px;
     border-radius: 15px;
     position: absolute;
-    left: 82.5%;
-    top: 13%;
-    height: 25px;
+    left: 93.78%;
+    top: 12%;
+    height: 26px;
 }
 
 .buscarbtn:hover{
@@ -113,13 +124,15 @@ input.buscar:focus{
 .funcoes{
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 90px;
 }
 
 .imgf{
-    background-color: #fd4556;
     padding: 15px 30px;
     border-radius: 10px;
+    border: 1px solid var(--cor1);
+    height: 400px;
+    width: 300px;
 }
 
 .imgp{

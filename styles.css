@@ -1,0 +1,128 @@
+:root {
+    --cor0: #bd3944;
+    --cor1: #fd4556;
+    --cor2: #53212b;
+    --cor3: #000000;
+    --cor4: #fffbf5;
+    --cor5: #7e7e7e;
+    --cor6: #424242;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    background-color: var(--cor1);
+    display: flex;
+    align-items: center;
+}
+
+.Hamburguer{
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.linha{
+    background-color: #000000;
+    width: 65%;
+    height: 4px;
+    border-radius: 3px;
+}
+
+
+.navbar{
+    display: none;
+}
+
+
+.logo{
+    width: 20%;
+    left: 50px;
+    
+}
+
+.imgLogo{
+    width: 20%;
+    margin-left: 460%;
+}
+
+.containerP{
+    background-color: var(--cor6);
+    min-height: 100vh;
+    display: flex;
+    place-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.search{
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+
+.buscar{
+    background: none;
+    border: 2px solid #fffbf5;
+    color: #f5f5f5;
+    padding: 7px 20px;
+    border-radius: 20px;
+    
+}
+
+.buscar::placeholder{
+    color: var(--cor4);
+}
+
+input.buscar:focus{
+    border: 2px solid #bd3944;
+    outline: none;
+}
+
+.buscarbtn{
+    background-color: #f5f5f5;
+    font-weight: 700;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 15px;
+    position: absolute;
+    left: 82.5%;
+    top: 13%;
+    height: 25px;
+}
+
+.buscarbtn:hover{
+    transition: all 0.2s ease-in-out;
+    background-color: var(--cor0);
+    color: #f5f5f5;
+}
+
+.containerF{
+    display: flex;
+    flex-direction: row;
+}
+
+.funcoes{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.imgf{
+    background-color: #fd4556;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+.imgp{
+    color: var(--cor3);
+    font-weight: 700;
+}

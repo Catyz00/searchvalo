@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+
+:root {
+    --cor0: #bd3944;
+    --cor1: #fd4556;
+    --cor2: #53212b;
+    --cor3: #000000;
+    --cor4: #fffbf5;
+    --cor5: #7e7e7e;
+    --cor6: #424242;
+    --font-principal: "Oxanium", sans-serif;
+}
+
+body{
+    background-color: var(--cor6);
+    color: var(--cor4);
+}
+
+.ImgPerfil{
+    height: auto;
+    width: 100px;
+}
+
+.sobre{
+    font-size: large;
+
+}
+

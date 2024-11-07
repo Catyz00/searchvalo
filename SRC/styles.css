@@ -15,6 +15,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--font-principal);
 }
 
 .header{
@@ -104,7 +105,6 @@
     place-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 40px 0;
     gap: 30px;
 }
 
@@ -118,7 +118,7 @@
 .containerCard{
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 70vh;
 }
 
 
@@ -132,6 +132,7 @@
     border-radius: 20px;
     font-family: var(--font-principal);
     font-size: 20px;
+    margin-top: 40px;
     
 }
 
@@ -233,3 +234,74 @@ input.buscar:focus{
     border-bottom: 1px solid var(--cor2);
     transition: all 0.2s ;
 }
+
+.containerFunctions{
+    background-color: var(--cor0);
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.cardLink{
+    text-decoration: none;
+}
+
+
+.cardAgentes{
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    max-height: 70%;
+    border: 2px solid var(--cor3);
+    border-radius: 15px;
+    padding: 40px;
+}
+
+.containerImgFunc{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardAgentesImage{
+    border: 2px solid var(--cor3);
+    border-radius: 5px;
+    background-color: var(--cor3);
+}
+
+.cardAgentesFuncao{
+    color: var(--cor3);
+    font-weight: 700;
+    border: 2px solid var(--cor3);
+    border-radius: 6px;
+    padding: 5px 10px;
+}
+
+.cardAgentesTitle{
+    text-align: center;
+    color: var(--cor3);
+    font-size: 32px;
+    margin-top: 25px;
+}
+
+.cardAgentesParagrafo{
+    margin: 20px 0;
+    text-align: center;
+    color: var(--cor3);
+}
+
+.containerHabilidades{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.habilidade{
+    color: var(--cor3);
+    font-weight: 700;
+    border-bottom: 2px solid var(--cor3);
+}
+
